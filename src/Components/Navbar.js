@@ -1,4 +1,5 @@
 import React from "react";
+import icon from "../img/icon-deal.png";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
           <div className="icon p-2 me-2">
             <img
               className="img-fluid"
-              src="img/icon-deal.png"
+              src={icon}
               alt="Icon"
               style={{ width: "30px", height: "30px" }}
             />
